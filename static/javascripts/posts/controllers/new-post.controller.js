@@ -25,6 +25,8 @@
          * @memberOf thinkster.posts.controllers.NewPostController
          */
         function submit() {
+            vm.content = vm.content + '#' + vm.tag + '#';
+
             $rootScope.$broadcast('post.created', {
                 content: vm.content,
                 author: {

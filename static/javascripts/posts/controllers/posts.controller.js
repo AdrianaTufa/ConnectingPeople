@@ -111,6 +111,13 @@
             if (current !== original) {
                 vm.columns = [];
 
+                current.forEach(function(curr) {
+                  var content = curr.content;
+
+                  curr.content = content.substring(0, content.indexOf('#'));
+                  curr.tag = content.substring(content.indexOf('#'), content.length - 1);
+                });
+
                 for (var i = 0; i < calculateNumberOfColumns(); ++i) {
                     vm.columns.push([]);
                 }
