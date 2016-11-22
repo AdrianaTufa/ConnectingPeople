@@ -9,17 +9,20 @@
         .module('thinkster.posts.controllers')
         .controller('PostsController', PostsController);
 
-    PostsController.$inject = ['$scope'];
+    PostsController.$inject = ['$scope', 'Authentication'];
 
     /**
      * @namespace PostsController
      */
-    function PostsController($scope) {
+    function PostsController($scope, Authentication) {
         var vm = this;
 
         vm.columns = [];
 
         activate();
+
+        vm.isAuthenticated = Authentication.isAuthenticated();
+        console.log(vm.isAuthenticated);
 
 
         /**
