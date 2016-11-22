@@ -108,11 +108,17 @@
          * @memberOf thinkster.posts.controllers.PostsController
          */
         function render(current, original) {
-            if (current !== original) {
+
+            if (current !== original && Array.isArray(current)) {
+              console.log(current);
                 vm.columns = [];
 
                 current.forEach(function(curr) {
                   var content = curr.content;
+
+                  if (curr.content.indexOf('#') == -1) {
+                    return;
+                  }
 
                   curr.content = content.substring(0, content.indexOf('#'));
                   curr.tag = content.substring(content.indexOf('#'), content.length - 1);
