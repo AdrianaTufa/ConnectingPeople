@@ -2,7 +2,7 @@
 
 ## Descriere
 
-	Aplicatie de comunicare pentru persoane interesate de un anumit
+   Aplicatie de comunicare pentru persoane interesate de un anumit
 subiect (in principul pe tema unei vieti sanatoase). Aici utilizatorii 
 pot crea evenimente, pot posta idei, sfaturi, experiente accesibile 
 de catre toate persoanele care folosesc platforma. Aplicatia este 
