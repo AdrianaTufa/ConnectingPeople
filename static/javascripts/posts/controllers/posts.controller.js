@@ -119,8 +119,8 @@
                     return;
                   }
 
-                  curr.content = content.substring(0, content.indexOf('#'));
-                  curr.tag = content.substring(content.indexOf('#'), content.length - 1);
+                  curr.content = content.substring(0, content.lastIndexOf('#'));
+                  curr.tag = content.substring(content.lastIndexOf('#'), content.length);
                 });
 
                 for (var i = 0; i < calculateNumberOfColumns(); ++i) {

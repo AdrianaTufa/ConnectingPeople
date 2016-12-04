@@ -29,7 +29,7 @@
               vm.tag = 'No tag';
             }
 
-            vm.content = vm.content + '#' + vm.tag + '#';
+            vm.content = vm.content + '#' + vm.tag;
 
             $rootScope.$broadcast('post.created', {
                 content: vm.content,
