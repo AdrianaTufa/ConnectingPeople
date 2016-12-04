@@ -13,7 +13,6 @@ si cele care il intereseaza sortand dupa tag-ul acestora.
 
 * Fork repository.
 * `$ git clone git@github.com:<your username>/ConnectingPeople.git`
-* `$ mkvirtualenv thinkster-djangular`
 * `$ cd ConnectingPeople/`
 * `$ pip install -r requirements.txt`
 * `$ npm install -g bower`
