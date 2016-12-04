@@ -1,15 +1,20 @@
-# thinkster-django-angular-boilerplate
+# ConnectingPeople
 
-## Installation
+## Descriere
 
-*NOTE: Requires [virtualenv](http://virtualenv.readthedocs.org/en/latest/),
-[virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) and
-[Node.js](http://nodejs.org/).*
+	Aplicatie de comunicare pentru persoane interesate de un anumit
+subiect (in principul pe tema unei vieti sanatoase). Aici utilizatorii 
+pot crea evenimente, pot posta idei, sfaturi, experiente accesibile 
+de catre toate persoanele care folosesc platforma. Aplicatia este 
+pe baza de autentificare, fiecare user poate vedea postarile globale 
+si cele care il intereseaza sortand dupa tag-ul acestora.
 
-* Fork this repository.
-* `$ git clone git@github.com:<your username>/thinkster-django-angular-boilerplate.git`
+## Instalare
+
+* Fork repository.
+* `$ git clone git@github.com:<your username>/ConnectingPeople.git`
 * `$ mkvirtualenv thinkster-djangular`
-* `$ cd thinkster-django-angular-boilerplate/`
+* `$ cd ConnectingPeople/`
 * `$ pip install -r requirements.txt`
 * `$ npm install -g bower`
 * `$ npm install`
