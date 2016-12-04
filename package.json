@@ -1,5 +1,5 @@
 {
-  "name": "thinkster_django_angular_boilerplate",
+  "name": "connecting-people",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brwr/thinkster-django-angular-boilerplate.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brwr/thinkster-django-angular-boilerplate/issues"
+    "url": ""
   },
   "homepage": "https://github.com/brwr/thinkster-django-angular-boilerplate",
   "dependencies": {
