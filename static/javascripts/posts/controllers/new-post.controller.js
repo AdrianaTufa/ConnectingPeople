@@ -25,6 +25,10 @@
          * @memberOf thinkster.posts.controllers.NewPostController
          */
         function submit() {
+            if (vm.tag === undefined) {
+              vm.tag = 'No tag';
+            }
+
             vm.content = vm.content + '#' + vm.tag + '#';
 
             $rootScope.$broadcast('post.created', {

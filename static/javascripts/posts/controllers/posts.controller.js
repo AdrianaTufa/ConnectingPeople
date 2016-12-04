@@ -110,7 +110,6 @@
         function render(current, original) {
 
             if (current !== original && Array.isArray(current)) {
-              console.log(current);
                 vm.columns = [];
 
                 current.forEach(function(curr) {
